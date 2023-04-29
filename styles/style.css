@@ -1,0 +1,20 @@
+*, ::before, ::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	}
+}
+
+html {
+	animation: fade-in 0.75s ease-out;
+	background: #f3f3f3;
+	font-family: "SegoeUIVF", "Segoe UI", sans-serif;
+	color: #111111;
+}
