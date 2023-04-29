@@ -16,6 +16,15 @@ html {
 	animation: fade-in 0.75s ease-out;
 	background: #f3f3f3;
 	font-family: "SegoeUIVF", "Segoe UI", sans-serif;
-	color: #111111;
-	padding: 15px;
+	color: #111;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #111;
+	color: #f1f1f1
+	height: 100vh;
+	width: 100%;
 }
