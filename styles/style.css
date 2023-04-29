@@ -19,7 +19,7 @@ html {
 	color: #111;
 }
 
-html header {
+html > header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
