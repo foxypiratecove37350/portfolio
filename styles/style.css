@@ -34,5 +34,7 @@ body > header {
 
 body > header > img {
 	max-height: 168px;
+	min-height: 50px;
 	height: 20%;
+	margin-top: 20px;
 }
