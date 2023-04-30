@@ -61,3 +61,11 @@ body > header > img {
 .tab-nav header button:not(:nth-last-child()) {
 	border-right: -2px solid #f30000;
 }
+
+.tab-nav header button:nth-child(1) {
+	border-top-left-radius: 10px;
+}
+
+.tab-nav header button:nth-last-child() {
+	border-top-right-radius: 10px;
+}
