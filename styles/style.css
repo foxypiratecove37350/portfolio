@@ -43,6 +43,13 @@ body > header > img {
 .tab-nav {
 	width: 90%;
 	border-radius: 10px;
-	background: #f00;
+	background: #f3f3f3;
 	margin: 10px auto;
+	border: 2px solid #f30000;
+}
+
+.tab-nav header {
+	width: 100%;
+	height: 64px;
+
 }
