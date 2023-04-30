@@ -44,4 +44,5 @@ body > header > img {
 	width: 90%;
 	border-radius: 10px;
 	background: #f00;
+	margin: 10px auto;
 }
