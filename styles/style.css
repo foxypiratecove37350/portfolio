@@ -43,4 +43,5 @@ body > header > img {
 .tab-nav {
 	width: 90%;
 	border-radius: 10px;
+	background: #f00;
 }
