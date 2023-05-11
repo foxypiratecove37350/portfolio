@@ -51,6 +51,10 @@ body > header > img {
 	width: 100%;
 	height: 64px;
 	border-bottom: 2px solid #f30000;
+	border-radius: 8px 8px 0 0;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .tab-nav header button {
@@ -58,14 +62,6 @@ body > header > img {
 	border: none;
 }
 
-.tab-nav header button:not(:nth-last-child()) {
-	border-right: -2px solid #f30000;
-}
-
-.tab-nav header button:nth-child(1) {
-	border-top-left-radius: 10px;
-}
-
-.tab-nav header button:nth-last-child() {
-	border-top-right-radius: 10px;
+.tab-nav header button:not(:nth-last-child(-n)) {
+	border-right: 2px solid #f30000;
 }
