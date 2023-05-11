@@ -65,6 +65,7 @@ body > header > img {
 
 .tab-nav header button.active {
 	background: #f30000;
+	color: #f1f1f1;
 }
 
 .tab-nav header button:not(:nth-last-child(-n+1)) {
